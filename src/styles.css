@@ -108,7 +108,7 @@ header nav a:hover {
 .experience {
   display: flex;
   flex-direction: row;
-  padding:60px;
+  padding: 60px;
   background-color: #fde3e0;
   color: #722F1D;
 }
@@ -119,7 +119,9 @@ header nav a:hover {
   border-radius: 8px;
   margin-right: 20px;
 }
-.experience .learning, .experience .clients {
+
+.experience .learning, 
+.experience .clients {
   flex: 1;
   margin: 0 20px;
 }
@@ -131,6 +133,7 @@ header nav a:hover {
 
 .experience ul {
   list-style-type: none;
+  padding: 0;
 }
 
 .experience li {
@@ -139,8 +142,12 @@ header nav a:hover {
 }
 
 .experience .skills {
-  display: flex;
-  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.experience .skills h4 {
+  font-size: 1.5em;
+  margin: 15px 0;
 }
 
 .experience .skills span {
@@ -152,6 +159,14 @@ header nav a:hover {
   border-radius: 5px;
   font-weight: bold;
 }
+
+.coding-skills,
+.design-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .design-section {
   display: flex;
   flex-direction: column;

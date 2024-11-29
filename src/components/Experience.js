@@ -16,11 +16,22 @@ const Experience = () => {
       <div className="clients">
         <h3>I've worked with</h3>
         <div className="skills">
-          <span>HTML & CSS</span>
-          <span>JavaScript</span>
-          <span>SQL</span>
-          <span>Python</span>
-          <span>JSX</span>
+          <h4>Coding Skills</h4>
+          <div className="coding-skills">
+            <span>HTML & CSS</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+            <span>Python</span>
+            <span>JSX</span>
+          </div>
+          <h4>Design Skills</h4>
+          <div className="design-skills">
+            <span>Adobe Photoshop</span>
+            <span>Figma</span>
+            <span>Illustrator</span>
+            <span>Wireframing</span>
+            <span>Prototyping</span>
+          </div>
         </div>
       </div>
     </section>
