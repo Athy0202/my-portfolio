@@ -1,88 +1,67 @@
-// src/components/Design.js
 import React from 'react';
 
 const Design = () => {
   return (
     <section id="design" className="design-section">
-      <div className="container">
-        {/* Header */}
-        <div className="text-center mb-5">
-          <h2 className="text-light">Design</h2>
-          <p className="text-muted">
-            I specialize in vibrant, memorable designs that balance fun and sophistication.
-          </p>
-        </div>
+  <div className="design-header">
+    <h2>Design</h2>
+    <p>I specialize in vibrant, memorable designs that balance fun and sophistication.</p>
+  </div>
 
-        {/* Design Grid */}
-        <div className="row gy-4">
-          {designData.map((design, index) => (
-            <div className="col-md-6" key={index}>
-              <div className="card bg-dark text-light border-0 shadow-sm">
-                <img
-                  src={`${process.env.PUBLIC_URL}${design.image}`}
-                  className="card-img-top rounded"
-                  alt={design.alt}
-                />
-                <div className="card-body">
-                  <h3 className="card-title">{design.title}</h3>
-                  <p>{design.description}</p>
-                  <p>
-                    <strong>Tools Used:</strong> {design.tools}
-                  </p>
-                  <h4>Rationale</h4>
-                  <p>{design.rationale}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+  <div className="design-grid">
+    {/* Design 1 */}
+    <div className="design-card">
+      <img src="/images/design1.jpg" alt="Chat Sticker Set" className="design-image" />
+      <div className="design-content">
+        <h3>Chat Stickers</h3>
+        <p>A playful yet professional design suite inspired by my passion for creativity and communication.</p>
+        <p><strong>Tools Used:</strong> Adobe Photoshop, Illustrator</p>
+        <h4>Rationale</h4>
+        <p>I used a complementary palette of oranges and blues for a bright, eye-catching look. A modern, clean sans-serif font enhances readability, and each sticker portrays cats reading and working on laptops to echo my creative spirit and love for learning. Key design principles like contrast and hierarchy help to create a cohesive set.</p>
       </div>
-    </section>
+    </div>
+
+    {/* Design 2 */}
+    <div className="design-card">
+      <img src="/images/design2.jpg" alt="Name Card Design" className="design-image" />
+      <div className="design-content">
+        <h3>Name Card</h3>
+        <p>A soft pink background and subtle dark pink accents create a calm, inviting tone.</p>
+        <p><strong>Tools Used:</strong> Adobe Photoshop, Illustrator</p>
+        <h4>Rationale</h4>
+        <p>Clean, readable fonts highlight my name and title for clarity, while a script font for "Athy" adds a personal touch. The cherry illustration on the back is a memorable accent that symbolizes creativity and productivity.</p>
+      </div>
+    </div>
+
+    {/* Design 3 */}
+    <div className="design-card">
+      <img src="/images/design3.jpg" alt="Logo Design Concept" className="design-image" />
+      <div className="design-content">
+        <h3>Logo Design Concept</h3>
+        <p>A bold and memorable logo that reflects my values as a writer: creativity, warmth, and professionalism.</p>
+        <p><strong>Tools Used:</strong> Adobe Photoshop, Illustrator</p>
+        <h4>Rationale</h4>
+        <p>The color scheme of black, purple, and pink creates a strong brand identity. Black provides a sophisticated backdrop, purple symbolizes creativity, and pink brings warmth. This combination achieves a harmonious and engaging design, with "I AM A WRITER" standing out for its boldness and clarity.</p>
+      </div>
+    </div>
+
+    {/* Design 4 */}
+    <div className="design-card">
+      <img src="/images/design4.jpg" alt="Logo on Applications" className="design-image" />
+      <div className="design-content">
+        <h3>Logo on Applications</h3>
+        <p>A practical demonstration of the logo's versatility across various mediums.</p>
+        <p><strong>Tools Used:</strong> Adobe Photoshop, Illustrator</p>
+        <h4>Rationale</h4>
+        <p>This design showcases the adaptability of the logo across different use cases, emphasizing its boldness and visual appeal when applied to real-world objects.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
   );
 };
 
-const designData = [
-  {
-    image: '/images/design1.jpg',
-    alt: 'Chat Sticker Set',
-    title: 'Chat Stickers',
-    description:
-      'A playful yet professional design suite inspired by my passion for creativity and communication.',
-    tools: 'Adobe Photoshop, Illustrator',
-    rationale:
-      'I used a complementary palette of oranges and blues for a bright, eye-catching look. A modern, clean sans-serif font enhances readability, and each sticker portrays cats reading and working on laptops to echo my creative spirit and love for learning. Key design principles like contrast and hierarchy help to create a cohesive set.',
-  },
-  {
-    image: '/images/design2.jpg',
-    alt: 'Name Card Design',
-    title: 'Name Card',
-    description:
-      'A soft pink background and subtle dark pink accents create a calm, inviting tone.',
-    tools: 'Adobe Photoshop, Illustrator',
-    rationale:
-      'Clean, readable fonts highlight my name and title for clarity, while a script font for "Athy" adds a personal touch. The cherry illustration on the back is a memorable accent that symbolizes creativity and productivity.',
-  },
-  {
-    image: '/images/design3.jpg',
-    alt: 'Logo Design Concept',
-    title: 'Logo Design Concept',
-    description:
-      'A bold and memorable logo that reflects my values as a writer: creativity, warmth, and professionalism.',
-    tools: 'Adobe Photoshop, Illustrator',
-    rationale:
-      'The color scheme of black, purple, and pink creates a strong brand identity. Black provides a sophisticated backdrop, purple symbolizes creativity, and pink brings warmth. This combination achieves a harmonious and engaging design, with "I AM A WRITER" standing out for its boldness and clarity.',
-  },
-  {
-    image: '/images/design4.jpg',
-    alt: 'Logo on Applications',
-    title: 'Logo on Applications',
-    description:
-      'A practical demonstration of the logo\'s versatility across various mediums.',
-    tools: 'Adobe Photoshop, Illustrator',
-    rationale:
-      'This design showcases the adaptability of the logo across different use cases, emphasizing its boldness and visual appeal when applied to real-world objects.',
-  },
-];
-
 export default Design;
+
 
