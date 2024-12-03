@@ -17,6 +17,14 @@ const Development = () => {
             <a href="https://pizza-app-athy-chi.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>
           </div>
         </div>
+        <div className="project-card">
+          <img src="/images/project2.jpg" alt="Project 2 Screenshot" />
+          <div className="project-details">
+            <h3>Travel-list App</h3>
+            <p>A web application that allows users to create and manage travel lists.</p>
+            <a href="https://athytravel-list-app-starter.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>
+          </div>
+        </div>
       </div>
     </section>
   );
