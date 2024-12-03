@@ -153,31 +153,69 @@ header nav a:hover {
 .design-section {
   padding: 60px 20px;
   background-color: #000;
+  text-align: center; /* Ensures all section content aligns consistently */
 }
 
 .design-section h2 {
   font-size: 2.5rem;
   color: #FFD7C2;
+  margin-bottom: 20px; /* Adds spacing below the section heading */
 }
 
 .design-section p {
   font-size: 1.2rem;
   color: #FFEDD5;
+  margin-bottom: 15px; /* Improves spacing between text blocks */
 }
 
 .card {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 12px; /* Slightly more rounded corners for a modern look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Stronger shadow for better elevation effect */
+  overflow: hidden; /* Prevents child elements from exceeding card boundaries */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.card:hover {
+  transform: scale(1.03); /* Slight zoom on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Adds more depth on hover */
 }
 
 .card-img-top {
-  max-height: 300px;
+  max-height: 250px; /* Reduces height for better proportionality */
   object-fit: cover;
+  border-bottom: 4px solid #FFD7C2; /* Accent color for better visual separation */
+}
+
+.card-body {
+  padding: 20px; /* Consistent padding inside the card */
 }
 
 .card-body p {
   color: #FFEDD5;
+  margin-bottom: 10px; /* Adds space between paragraphs */
 }
+
+.card-title {
+  font-size: 1.5rem;
+  color: #FFD7C2;
+  margin-bottom: 10px; /* Adds space below the title */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .design-section {
+    padding: 40px 10px;
+  }
+
+  .card-img-top {
+    max-height: 200px; /* Adjusts image size for smaller screens */
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+}
+
 
 /* Development Section */
 .development-section {
