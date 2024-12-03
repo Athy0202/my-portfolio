@@ -188,55 +188,34 @@ header nav a:hover {
   color: #FFEDD5;
 }
 
-/* Grid Layout */
-.design-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  justify-items: center;
+.design-section {
+  padding: 60px 20px;
+  background-color: #000; /* Black background */
 }
 
-/* Design Cards */
-.design-card {
-  background: #111; /* Dark background for card contrast */
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  color: #FFEDD5;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.design-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.4);
-}
-
-/* Image Styles */
-.design-image {
-  width: 100%; /* Full width inside the card */
-  max-width: 500px; /* Prevents image from being too large */
-  height: auto;
+.card {
   border-radius: 8px;
-  margin-bottom: 20px;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* Text Content */
-.design-content h3 {
-  font-size: 1.8rem;
+.card-img-top {
+  max-height: 300px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  font-size: 1.5rem;
   color: #FFD7C2;
-  margin-bottom: 10px;
 }
 
-.design-content p {
+.card-body p {
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 10px;
+  color: #FFEDD5;
 }
 
-.design-content h4 {
-  font-size: 1.3rem;
+.card-body h4 {
+  font-size: 1.2rem;
   margin-top: 20px;
   color: #FFD7C2;
 }
