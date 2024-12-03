@@ -1,4 +1,9 @@
-<section id="design" className="design-section">
+// src/components/Design.js
+import React from 'react';
+
+const Design = () => {
+  return (
+    <section id="design" className="design-section">
   <div className="design-header">
     <h2>Design</h2>
     <p>I specialize in vibrant, memorable designs that balance fun and sophistication.</p>
@@ -49,3 +54,9 @@
     </div>
   </div>
 </section>
+
+
+  );
+};
+
+export default Design;
