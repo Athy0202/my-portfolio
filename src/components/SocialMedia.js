@@ -6,10 +6,10 @@ const SocialMedia = () => {
     <section id="social-media" className="social-media">
       <h2>Connect with Me</h2>
       <div className="social-icons">
-        <a href="https://www.linkedin.com/in/aathira-rajan-164b252a5/" target="_blank" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/aathira-rajan-164b252a5/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://www.instagram.com/blackcat_athy/profilecard/?igsh=MW43aDdraWRpczBkZQ==" target="_blank" aria-label="Instagram">
+        <a href="https://www.instagram.com/blackcat_athy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
           <i className="fab fa-instagram"></i>
         </a>
       </div>
