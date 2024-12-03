@@ -23,9 +23,7 @@ const Contact = () => {
                     <span>Location: Singapore, Singapore</span>
                 </div>
             </div>
-            <div className="contact-image">
-                <img src="/images/athylaying.jpg" alt="Your Profile Picture" />
-            </div>
+            
         </div>
     </section>
   );
