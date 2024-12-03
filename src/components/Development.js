@@ -18,7 +18,7 @@ const Development = () => {
           </div>
         </div>
         <div className="project-card">
-          <img src="/images/TravelListApp.jpg" alt="Project 2 Screenshot" />
+          <img src="/images/TravelList.jpg" alt="Project 2 Screenshot" />
           <div className="project-details">
             <h3>Travel-list App</h3>
             <p>A web application that allows users to create and manage travel lists.</p>
