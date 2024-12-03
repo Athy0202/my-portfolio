@@ -1,4 +1,3 @@
-// src/components/Experience.js
 import React from 'react';
 
 const Experience = () => {
@@ -11,6 +10,7 @@ const Experience = () => {
         <h3>I've learned from</h3>
         <ul>
           <li>Republic Polytechnic</li>
+          <li>Diploma in Digital Design and Development (April 2023 - Present)</li>
         </ul>
       </div>
       <div className="clients">
