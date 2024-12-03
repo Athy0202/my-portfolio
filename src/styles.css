@@ -167,73 +167,99 @@ header nav a:hover {
   gap: 10px;
 }
 
+/* Section Container */
 .design-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 60px 20px;
-  background-color: #1a1a1a; /* Softer black */
+  background-color: #f8f9fa; /* Light gray background for contrast */
 }
 
 .design-header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .design-header h2 {
-  font-size: 2rem;
-  color: #ffffff;
+  font-size: 2.5rem;
+  color: #333;
 }
 
 .design-header p {
-  font-size: 1rem;
-  color: #ffffff;
+  font-size: 1.1rem;
+  color: #555;
 }
 
-.design-item {
-  background-color: #1a1a1a;
-  margin-bottom: 50px;
-  text-align: center;
-  border-bottom: 1px solid #FFD7C2;
-  padding-bottom: 30px;
+/* Grid Layout */
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
 }
 
-.design-item h3 {
-  font-size: 2em;
-  color: #FFD7C2;
-  margin-bottom: 10px;
+/* Card Layout */
+.design-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.design-summary p {
-  font-size: 1rem;
-  color: #FFEDD5;
+.design-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
 }
 
+/* Image Styles */
 .design-images {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
   margin-bottom: 15px;
 }
 
 .design-images img {
-  width: 320px;
+  width: 140px;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 6px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .design-images img:hover {
   transform: scale(1.05);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-.design-description {
-  color: #FFD7C2;
-  font-size: 1.1em;
-  margin-top: 10px;
+/* Content Styles */
+.design-content {
+  text-align: left;
 }
+
+.design-card h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.design-card p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.design-description h4 {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  color: #444;
+}
+
+.design-description p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
 
 /* Development Section Styling */
 .development-section {
