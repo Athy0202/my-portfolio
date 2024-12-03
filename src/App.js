@@ -9,7 +9,6 @@ import Development from './components/Development';
 import Contact from './components/Contact';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
-
 import './styles.css';
 
 function App() {
