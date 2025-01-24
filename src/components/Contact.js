@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact" className="contact-section">
         <div className="contact-header">
-            <h2>Contact Me</h2>
+            <h2>Work with Me</h2>
             <p>I'm available for inquiries or collaborations. You can reach me through the following methods:</p>
         </div>
         <div className="contact-content">
@@ -23,10 +23,13 @@ const Contact = () => {
                     <span>Location: Singapore, Singapore</span>
                 </div>
             </div>
-            
+            <div className="contact-image">
+                <img src="/images/painting.jpg" alt="Painting by Me" />
+            </div>
         </div>
     </section>
   );
 };
 
 export default Contact;
+
