@@ -29,7 +29,7 @@ const Development = () => {
           <img src="/images/WorkoutBuddy.jpg" alt="Project 3 Screenshot" />
           <div className="project-details">
             <h3>Workout Buddy</h3>
-            <p>A full-stack fitness tracker that allows users to log workouts, track progress over time, and set fitness goals. Built using the MERN stack (MongoDB, Express, React, Node.js), it includes authentication, personalized dashboards, and performance analytics.</p>
+            <p>A full-stack fitness tracker that allows users to log workouts, track progress over time, and set fitness goals. Built using the MERN stack (MongoDB, Express, React, Node.js).</p>
             <a href="https://mernapp-lesson-10-1.onrender.com/" target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>
           </div>
         </div>
