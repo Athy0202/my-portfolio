@@ -11,6 +11,7 @@ const Experience = () => {
         <ul>
           <li>Republic Polytechnic</li>
           <li>Diploma in Digital Design and Development (April 2023 - Present)</li>
+          <li>Boon Lay Secondary School (2019 - 2023)</li>
         </ul>
       </section>
       <section className="clients">
@@ -43,4 +44,3 @@ const Experience = () => {
 };
 
 export default Experience;
-
